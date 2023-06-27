@@ -1,9 +1,11 @@
-import styles from './about.module.css'
+import { AboutUs } from '@/components/about/about_us'
+import { MeetOurTeam } from '@/components/about/meet_our_team'
 
 export default function About() {
   return (
-    <div>
-      <h1 className="text-foreground text-center m-0">About us</h1>
+    <div className='mt-[8rem] mb-10 max-w-screen-xl mx-8 md:mx-[7.5rem]'>
+      <AboutUs />
+      <MeetOurTeam />
     </div>
   )
 }
