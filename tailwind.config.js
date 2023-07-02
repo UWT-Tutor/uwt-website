@@ -9,9 +9,16 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: {
+        DEFAULT: "2rem",
+        sm: "3rem",
+        md: "4rem",
+        lg: "4rem",
+        xl: '5rem',
+        '2xl': '6rem',
+      },
       screens: {
-        "2xl": "1280px",
+        "2xl": "1280px",  // Set max width for 2xl screens and above
       },
     },
     extend: {
