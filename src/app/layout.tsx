@@ -21,7 +21,7 @@ export default function RootLayout({
         <MainNav 
           items={routeConfig.mainNav} 
         />
-        <div className='pt-[5rem]'>
+        <div className='pt-[5rem] bg-background'>
           {children}
         </div>
       </body>
