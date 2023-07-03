@@ -1,7 +1,9 @@
 "use client";
 import columbiaEssayBefore from "@/public/images/sample/columbia-before.jpg";
 import columbiaEssayAfter from "@/public/images/sample/columbia-after.jpg";
-import brownUniversityEssayAfter from "@/public/images/sample/columbia-after.jpg";
+import brownUniversityEssayBefore from "@/public/images/sample/brown-university-before.jpg";
+import brownUniversityEssayAfter from "@/public/images/sample/brown-university-after.jpg";
+
 import ImageCompare from "@/components/sample/image_compare";
 
 export default function Sample() {
@@ -18,7 +20,7 @@ export default function Sample() {
         <ImageCompare
           title="Brown University Summer Pre-College Essay Prompt 2023"
           description="Assist you in generating ideas and refining your writing draft."
-          beforeImage={brownUniversityEssayAfter}
+          beforeImage={brownUniversityEssayBefore}
           afterImage={brownUniversityEssayAfter}
         />
       </div>
