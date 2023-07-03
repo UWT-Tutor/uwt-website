@@ -1,9 +1,9 @@
-'use client'
+"use client";
 
 import Link from "next/link";
-import Image from 'next/image'
+import Image from "next/image";
 import { buttonVariants } from "../ui/button";
-import studentWriting from '@/public/images/student-writing.png'
+import studentWriting from "/public/images/student-writing.png";
 
 export default function TopBanner() {
   return (
@@ -14,15 +14,27 @@ export default function TopBanner() {
             Your Most <br />
             Trusted Writing Tutors
           </h1>
-          <p className="text-xl text-muted-foreground">For College and Graduate School Application Essays.</p>
+          <p className="text-xl text-muted-foreground">
+            For College and Graduate School Application Essays.
+          </p>
           <div className="flex gap-4 mt-6">
-            <Link className={buttonVariants({ variant: "secondary" })} href={""}>Pay as you go</Link>
-            <Link className={buttonVariants({ variant: "outline" })} href={"/sample"}>See past works</Link>
+            <Link
+              className={buttonVariants({ variant: "secondary" })}
+              href={""}
+            >
+              Pay as you go
+            </Link>
+            <Link
+              className={buttonVariants({ variant: "outline" })}
+              href={"/sample"}
+            >
+              See past works
+            </Link>
           </div>
         </div>
         <div className="flex-1 max-w-[620px] w-full">
-          <Image 
-            src={studentWriting} 
+          <Image
+            src={studentWriting}
             sizes="100vw"
             className="w-full h-auto"
             alt=""
