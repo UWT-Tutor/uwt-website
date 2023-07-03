@@ -1,8 +1,7 @@
 "use client";
-import columbiaEssayBefore from "public/images/sample/before-columbia.jpg";
-import columbiaEssayAfter from "public/images/sample/after-columbia.jpg";
-import BrownUniversityEssayAfter from "public/images/sample/after-columbia.jpg";
-
+import columbiaEssayBefore from "public/images/sample/columbia-before.jpg";
+import columbiaEssayAfter from "public/images/sample/columbia-after.jpg";
+import BrownUniversityEssayAfter from "public/images/sample/columbia-after.jpg";
 import ImageCompare from "@/components/sample/image_compare";
 
 export default function Sample() {
