@@ -75,4 +75,12 @@
   body {
     @apply bg-background text-foreground;
   }
+  img-comparison-slider {
+    --divider-width: 2px;
+    --divider-color: #2d2d2d;
+    --default-handle-opacity: 0.3;
+    --default-handle-width: 50px;
+    --default-handle-color: #2d2d2d;
+    --default-handle-opacity: 10;
+  }
 }
