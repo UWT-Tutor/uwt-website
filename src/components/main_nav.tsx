@@ -13,7 +13,7 @@ export function MainNav({ items }: MainNavProps) {
   const segment = useSelectedLayoutSegment()
   // TODO: support mobile
   return (
-    <header className='fixed top-0 left-0 right-0 bg-primary w-full h-[5rem] py-5 z-10'>
+    <header className='fixed top-0 left-0 right-0 bg-primary w-full h-[5rem] py-5 z-30'>
       <div className="flex justify-between items-center container">
         <h1 className='text-primary-foreground text-3xl'>UWT</h1>
         <nav className="hidden md:flex items-center gap-8">
