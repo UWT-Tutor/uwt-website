@@ -12,13 +12,11 @@ export default function Sample() {
       <div className="flex flex-col gap-10">
         <ImageCompare
           title="Columbia University Summer Pre-College Essay Prompt 2023"
-          description="Assist you in generating ideas and refining your writing draft."
           beforeImage={columbiaEssayBefore}
           afterImage={columbiaEssayAfter}
         />
         <ImageCompare
           title="Brown University Summer Pre-College Essay Prompt 2023"
-          description="Assist you in generating ideas and refining your writing draft."
           beforeImage={brownUniversityEssayBefore}
           afterImage={brownUniversityEssayAfter}
         />
