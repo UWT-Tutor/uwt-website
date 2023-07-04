@@ -20,13 +20,13 @@ export default function TopBanner() {
           <div className="flex gap-4 mt-6">
             <Link
               className={buttonVariants({ variant: "secondary" })}
-              href={""}
+              href="/pricing"
             >
-              Pay as you go
+              See pricing
             </Link>
             <Link
               className={buttonVariants({ variant: "outline" })}
-              href={"/sample"}
+              href="/sample"
             >
               See past works
             </Link>

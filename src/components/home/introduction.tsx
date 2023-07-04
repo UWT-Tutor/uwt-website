@@ -26,9 +26,9 @@ export default function Introduction() {
           </p>
           <Link
             className={cn(buttonVariants({ variant: "secondary" }), "mt-4")}
-            href={""}
+            href="/pricing"
           >
-            Pay as you go
+            See pricing
           </Link>
         </div>
         <div>
