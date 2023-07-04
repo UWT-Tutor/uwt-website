@@ -47,7 +47,7 @@ export function MainNav({ items }: MainNavProps) {
           />
         </div>
         {showMobileMenu && items && (
-          <MobileNav items={items}></MobileNav>
+          <MobileNav items={items} onDismiss={() => { setShowMobileMenu(false) }}></MobileNav>
         )}
       </div>
     </header>

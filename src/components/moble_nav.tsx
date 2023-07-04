@@ -1,17 +1,21 @@
-import Link from "next/link"
+'use client'
 
 import { MainNavItem } from "@/types"
 import { cn } from "@/lib/utils"
-import { useLockBody } from "@/hooks/use-lock-body"
+import { useRouter } from "next/navigation"
 
 interface MobileNavProps {
   items: MainNavItem[]
-  children?: React.ReactNode
+  children?: React.ReactNode,
+  onDismiss: () => void
 }
 
-export function MobileNav({ items, children }: MobileNavProps) {
-  useLockBody()
-
+export function MobileNav({
+  items,
+  children,
+  onDismiss,
+}: MobileNavProps) {
+  const router = useRouter()
   return (
     <div
       className={cn(
@@ -21,16 +25,19 @@ export function MobileNav({ items, children }: MobileNavProps) {
       <div className="relative grid gap-6 bg-popover p-4 text-popover-foreground shadow-md">
         <nav className="grid grid-flow-row auto-rows-max text-sm">
           {items.map((item, index) => (
-            <Link
+            <p
               key={index}
-              href={item.disabled ? "#" : item.href}
               className={cn(
                 "flex w-full items-center rounded-md p-2 text-base font-medium hover:text-secondary",
                 item.disabled && "cursor-not-allowed opacity-60"
               )}
+              onClick={() => {
+                router.push(item.href)
+                onDismiss()
+              }}
             >
               {item.title}
-            </Link>
+            </p>
           ))}
         </nav>
         {children}
