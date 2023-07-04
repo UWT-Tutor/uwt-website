@@ -31,9 +31,9 @@ export function MeetOurTeam() {
 
         {/* Thomas */}
         <MemberIntro
-          name="Dr. Thomas Leonard-Roy"
+          name="Thomas Leonard-Roy"
           imageSrc="/images/thomas.png"
-          description="Dr. Leonard-Roy is a writer, editor, scholar, and award-winning teacher. He has taught literature and writing at Harvard College and Harvard Extension School. He is committed to helping students improve their English expression."
+          description="Thomas Leonard-Roy is a writer, editor, scholar, and award-winning teacher. He has taught literature and writing at Harvard College and Harvard Extension School. He is committed to helping students improve their English expression."
           credentials={[
             "Harvard University - PhD, English",
             "University of Toronto - MA, BA, English",
