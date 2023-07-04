@@ -13,7 +13,7 @@ export default function Pricing() {
           <div>
             <h4 className="font-semibold">Pricing</h4>
             <ul className='text-muted-foreground list-inside list-disc'>
-              <li>College: <strong className="text-xl">NT$12,000</strong> / essay</li>
+              <li>College: <strong className="text-xl">NT$9,000</strong> / essay</li>
               <li>Graduate School: <strong className="text-xl">NT$14,000</strong> / essay</li>
             </ul>
           </div>
