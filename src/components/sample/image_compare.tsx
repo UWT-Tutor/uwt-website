@@ -1,3 +1,4 @@
+"use client";
 import { ImgComparisonSlider } from "@img-comparison-slider/react";
 import Image, { StaticImageData } from "next/image";
 
