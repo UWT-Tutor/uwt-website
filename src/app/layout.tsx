@@ -8,6 +8,25 @@ const raleway = Raleway({ subsets: ["latin"] });
 export const metadata = {
   title: "UWT - Your Most Trusted Writing Tutors",
   description: "For College and Graduate School Application Essays.",
+  url: "https://uwt-website.vercel.app/",
+  siteName: "UWT Website",
+  canonical: "https://uwt-website.vercel.app/",
+  openGraph: {
+    title: 'UWT - Your Most Trusted Writing Tutors',
+    description: 'For College and Graduate School Application Essays.',
+    url: 'https://uwt-website.vercel.app/',
+    siteName: 'UWT Website',
+    images: [
+      {
+        url: '/images/ogp.png',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en-US',
+    type: 'website',
+  },
+  icons: "./favicon.ico"
 };
 
 export default function RootLayout({
