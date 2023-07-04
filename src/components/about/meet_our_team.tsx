@@ -19,6 +19,16 @@ export function MeetOurTeam() {
           ]}
         />
 
+        {/* Elisa */}
+        <MemberIntro
+          name='Elisa Sotgiu'
+          imageSrc='/images/elisa.jpg'
+          description='Elisa Sotgiu is a scholar of contemporary global fiction and is currently a Ph.D. candidate in Comparative Literature at Harvard. An award-winning teacher, she has taught seminars on the masterpieces of world literature and conducted critical writing laboratories at Harvard College, and also served as a writing tutor at the Harvard Extension School.'
+          credentials={[
+            'Harvard University - A.M. in Comparative Literature',
+            'University of Pisa and Scuola Normale Superiore - M.A. in Italian Literature'
+          ]} />
+
         {/* Thomas */}
         <MemberIntro
           name="Dr. Thomas Leonard-Roy"
