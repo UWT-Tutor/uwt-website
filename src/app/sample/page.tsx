@@ -1,8 +1,8 @@
 "use client";
-import columbiaEssayBefore from "@/public/images/sample/columbia-before.jpg";
-import columbiaEssayAfter from "@/public/images/sample/columbia-after.jpg";
-import brownUniversityEssayBefore from "@/public/images/sample/brown-university-before.jpg";
-import brownUniversityEssayAfter from "@/public/images/sample/brown-university-after.jpg";
+import columbiaEssayBefore from "/public/images/sample/columbia-before.jpg";
+import columbiaEssayAfter from "/public/images/sample/columbia-after.jpg";
+import brownUniversityEssayBefore from "/public/images/sample/brown-university-before.jpg";
+import brownUniversityEssayAfter from "/public/images/sample/brown-university-after.jpg";
 
 import ImageCompare from "@/components/sample/image_compare";
 
