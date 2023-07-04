@@ -1,4 +1,3 @@
-"use client";
 import columbiaEssayBefore from "/public/images/sample/columbia-before.jpg";
 import columbiaEssayAfter from "/public/images/sample/columbia-after.jpg";
 import brownUniversityEssayBefore from "/public/images/sample/brown-university-before.jpg";
