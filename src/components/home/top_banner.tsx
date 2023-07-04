@@ -8,7 +8,7 @@ import studentWriting from "/public/images/student-writing.png";
 export default function TopBanner() {
   return (
     <section className="bg-white">
-      <div className="flex flex-col lg:flex-row justify-between items-center gap-16 lg:gap-16 container py-12 lg:py-20">
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-16 container py-12 lg:py-20">
         <div className="flex-1 flex flex-col gap-2 w-full">
           <h1 className="text-5xl md:text-6xl text-foreground font-semibold leading-snug md:leading-snug">
             Your Most <br />
