@@ -1,11 +1,11 @@
-'use client'
-import { InlineWidget, useCalendlyEventListener } from "react-calendly";
+"use client";
+import { InlineWidget } from "react-calendly";
 
 export default function Calendly() {
-  useCalendlyEventListener({
-    onProfilePageViewed: () => console.log("onProfilePageViewed"),
-  });
   return (
-    <InlineWidget url="https://calendly.com/uwtwriting" />
-  )
+    <InlineWidget url="https://calendly.com/uwtwriting" styles={{
+        height: "400px",
+        minWidth: "320px"
+      }} />
+  );
 }
