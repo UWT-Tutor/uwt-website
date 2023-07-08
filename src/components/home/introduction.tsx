@@ -14,7 +14,7 @@ export default function Introduction() {
             is your first step to{" "}
             <span className="text-secondary">success</span>
           </h2>
-          <p className="text-muted-foreground leading-loose">
+          <p className="text-muted-foreground leading-loose text-lg">
             We provide you with in-line editing <br />
             Help you with writing engaging prose and elevating your creative
             output <br />
