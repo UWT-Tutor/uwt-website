@@ -47,9 +47,7 @@ export default function Pricing() {
 
         <section className="flex flex-col gap-6 items-start p-6 bg-white rounded-xl leading-loose drop-shadow-sm">
           <h3 className="text-3xl font-semibold">Package work</h3>
-          <h4 className="font-semibold">
-            Basic package: <span className="text-xl">NT$85,000</span>
-          </h4>
+          <h4 className="font-semibold">Basic package: <strong className="text-xl">NT$85,000</strong></h4>
           <div className="text-muted-foreground">
             <h4 className="font-semibold">Description</h4>
             <p className="mt-1">
