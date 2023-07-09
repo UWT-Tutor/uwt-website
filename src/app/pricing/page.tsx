@@ -2,7 +2,7 @@ export default function Pricing() {
   return (
     <div className="container py-12">
       <h1 className="mt-4 mb-16 text-center text-5xl leading-normal font-semibold text-transparent bg-clip-text bg-gradient-to-r from-gray-950 via-sky-700 via-30% to-sky-400">
-        Pick the plan thats right for you
+        Pick the plan that&#39;s right for you
       </h1>
 
       <div className="flex flex-col gap-8">
