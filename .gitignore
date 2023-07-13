@@ -36,5 +36,4 @@ next-env.d.ts
 
 # sitemap
 robots.txt
-sitemap.xml
-sitemap-0.xml
+sitemap*.xml
