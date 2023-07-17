@@ -35,9 +35,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const GA_TRACKING_ID = process.env.GA_TRACKING_ID || "";
   return (
     <html lang="en">
-      <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID||""} />
+      <GoogleAnalytics GA_TRACKING_ID={GA_TRACKING_ID} />
       <body className={raleway.className}>
         <MainNav items={routeConfig.mainNav} />
         <div className="pt-[5rem] bg-background">{children}</div>
