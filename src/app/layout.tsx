@@ -7,8 +7,10 @@ import GoogleAnalytics from "@/components/google_analytics";
 const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
-  template: "%s | UWT - Your Most Trusted Writing Tutors",
-  default: "UWT - Your Most Trusted Writing Tutors",
+  title: {
+    template: '%s | UWT - Your Most Trusted Writing Tutors',
+    default: 'UWT - Your Most Trusted Writing Tutors',
+  },
   description: "For College and Graduate School Application Essays.",
   url: "https://uwt-website.vercel.app/",
   siteName: "UWT Website",
