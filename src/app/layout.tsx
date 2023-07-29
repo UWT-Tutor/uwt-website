@@ -6,7 +6,8 @@ import { routeConfig } from "@/config/route";
 const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "UWT - Your Most Trusted Writing Tutors",
+  template: "%s | UWT - Your Most Trusted Writing Tutors",
+  default: "UWT - Your Most Trusted Writing Tutors",
   description: "For College and Graduate School Application Essays.",
   url: "https://uwt-website.vercel.app/",
   siteName: "UWT Website",
