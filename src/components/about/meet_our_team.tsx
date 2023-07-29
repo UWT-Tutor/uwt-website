@@ -33,7 +33,7 @@ export function MeetOurTeam() {
         <MemberIntro
           name="Thomas Leonard-Roy"
           imageSrc="/images/thomas.png"
-          description="Thomas Leonard-Roy is a writer, editor, scholar, and award-winning teacher. He has taught literature and writing at Harvard College and Harvard Extension School. He is committed to helping students improve their English expression."
+          description="Thomas Leonard-Roy is a writer, editor, and teacher of English literature and language. He has taught literature and writing at Harvard College and Harvard Extension School and remains dedicated to helping all students improve their English expression."
           credentials={[
             "Harvard University - PhD, English",
             "University of Toronto - MA, BA, English",
