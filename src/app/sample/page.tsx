@@ -12,8 +12,11 @@ export const metadata: Metadata = {
 export default function Sample() {
   return (
     <div className="mt-[3rem] mb-10 container">
-      <h1 className="mt-4 mb-16 text-center text-5xl font-semibold">Sample</h1>
-      <div className="flex flex-col gap-10">
+      <h1 className="mt-4 mb-4 text-center text-5xl font-semibold">Sample</h1>
+      <div className="flex flex-col gap-10  max-w-[600px] mx-auto">
+        <p className="text-center text-lg">
+          Experience an unparalleled and meticulous revision process, setting new industry standards for excellence!
+        </p>
         <ImageCompare
           title="Columbia University Summer Pre-College Essay Prompt 2023"
           beforeImage={columbiaEssayBefore}
