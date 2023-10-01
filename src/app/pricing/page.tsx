@@ -25,12 +25,16 @@ export default function Pricing() {
             <h4 className="font-semibold">Pricing</h4>
             <ul className="text-muted-foreground list-inside list-disc">
               <li>
-                College: <strong className="text-xl">NT$9,000</strong> / essay
+                College Application(3 Steps Revision Process): <strong className="text-xl">NT$9,000</strong> / essay 
               </li>
               <li>
-                Graduate School: <strong className="text-xl">NT$14,000</strong>{" "}
-                / essay
+                Graduate School Application(Multiple Revision and Proofreading Process): <strong className="text-xl">NT$14,000</strong> / essay
               </li>
+              <li>IB Extended Essay: <strong className="text-xl">NT$ 6.5</strong> / word</li>
+              <li>Other Course Essays: <strong className="text-xl">NT$ 5</strong> / word</li>
+              <p className="text-xl font-semibold mt-3">
+                For more customized pricing options, please contact us.
+              </p>
             </ul>
           </div>
         </section>
@@ -53,7 +57,9 @@ export default function Pricing() {
 
         <section className="flex flex-col gap-6 items-start p-6 bg-white rounded-xl leading-loose drop-shadow-sm">
           <h3 className="text-3xl font-semibold">Package work</h3>
-          <h4 className="font-semibold">Basic package: <strong className="text-xl">NT$85,000</strong></h4>
+          <h4 className="font-semibold">
+            Basic package: <strong className="text-xl">NT$85,000</strong>
+          </h4>
           <div className="text-muted-foreground">
             <h4 className="font-semibold">Description</h4>
             <p className="mt-1">
@@ -67,13 +73,53 @@ export default function Pricing() {
                 tailored specifically for your preferred universities.
               </li>
               <li>
-                 We offer 10 hours of in-person tutorial sessions.
-                Typically, each session lasts for one hour. However, in cases
-                where the student requires additional time for extensive Q&A, we
-                are flexible to extend the duration of a regular session.
+                We offer 10 hours of in-person tutorial sessions. Typically,
+                each session lasts for one hour. However, in cases where the
+                student requires additional time for extensive Q&A, we are
+                flexible to extend the duration of a regular session.
               </li>
-              <p className="mt-1">The definition of an essay: 500-1,000 words (Both Common and Coalition Apps advise an applicant to submit an essay of between 550-650 words).</p>
-              
+              <p className="mt-1">
+                The definition of an essay: 500-1,000 words (Both Common and
+                Coalition Apps advise an applicant to submit an essay of between
+                550-650 words).
+              </p>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold">
+              For more information about package work, please contact us.
+            </h4>
+          </div>
+        </section>
+
+        <section className="flex flex-col gap-6 items-start p-6 bg-white rounded-xl leading-loose drop-shadow-sm">
+          <h3 className="text-3xl font-semibold">Package work</h3>
+          <h4 className="font-semibold">
+            Basic package: <strong className="text-xl">NT$85,000</strong>
+          </h4>
+          <div className="text-muted-foreground">
+            <h4 className="font-semibold">Description</h4>
+            <p className="mt-1">
+              Assist you in generating ideas and refining your writing draft.
+              <br />
+            </p>
+            <ul className="list-inside list-disc">
+              <li>
+                4 essays: one essay for either the Common Application or
+                Coalition for College Application, and three additional essays
+                tailored specifically for your preferred universities.
+              </li>
+              <li>
+                We offer 10 hours of in-person tutorial sessions. Typically,
+                each session lasts for one hour. However, in cases where the
+                student requires additional time for extensive Q&A, we are
+                flexible to extend the duration of a regular session.
+              </li>
+              <p className="mt-1">
+                The definition of an essay: 500-1,000 words (Both Common and
+                Coalition Apps advise an applicant to submit an essay of between
+                550-650 words).
+              </p>
             </ul>
           </div>
           <div>
