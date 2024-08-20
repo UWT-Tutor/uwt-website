@@ -12,7 +12,7 @@ export function MeetOurTeam() {
         <MemberIntro
           name="C.L. Alexander Lee"
           imageSrc="/images/alex.png"
-          description="Alex has over 13 years of teaching experience in the EFL context. He has helped numerous students to matriculate at highly competitive universities over the years, including Cornell University, MIT, Stanford, the University of Michigan, and many other distinguished institutions."
+          description="With over 13 years of experience in EFL education, Alex has helped numerous students achieve stellar scores on TOEFL and IELTS exams and gain admission to competitive universities. He is also dedicated to teaching creative writing and poetry, guiding students in developing their skills in these areas."
           credentials={[
             "Harvard University - Master of Liberal Arts (ALM), English",
             "Concordia University - BA, Political Science, Minor in History",
@@ -27,7 +27,8 @@ export function MeetOurTeam() {
           credentials={[
             'Harvard University - PhD, MA Comparative Literature',
             'University of Pisa and Scuola Normale Superiore - MA, BA, Italian Literature'
-          ]} />
+          ]}
+         />
 
         {/* Thomas */}
         <MemberIntro
@@ -37,6 +38,17 @@ export function MeetOurTeam() {
           credentials={[
             "Harvard University - PhD, English",
             "University of Toronto - MA, BA, English",
+          ]}
+        />
+        {/* Alexandria */}
+        <MemberIntro
+          name="Alexandria Waldron"
+          imageSrc="/images/alexandria2.png"
+          description="Alexandria Waldron has over 18 years of experience teaching English Literature to students in the UK and USA. Her extensive professional background includes serving as a senior school leader and a senior academic manager at The Open University, the third largest higher education institution in Europe. Alexandria is also a qualified GCSE examiner for Pearson and Edexcel, a certified Cambridge Examinations moderator, and holds SEI (Sheltered English Immersion) certification in the USA."
+          credentials={[
+            "Harvard University, Master of Liberal Arts (ALM), English",
+            "University of London, PGCE English",
+            "Bristol University, Classical Studies, BA (honours)"
           ]}
         />
       </div>

@@ -25,7 +25,7 @@ export default function Pricing() {
             <h4 className="font-semibold">Pricing</h4>
             <ul className="text-muted-foreground list-inside list-disc">
               <li>
-                College Application (3 Steps Revision Process): <strong className="text-xl">NT$9,000</strong> / essay 
+                College Application (3 Steps Revision Process): <strong className="text-xl">NT$9,000</strong> / essay (over 500 words), <strong className="text-xl">NT$5,000</strong> / essay (under 500 words), <strong className="text-xl">NT$3,500</strong> / essay (under 200 words)
               </li>
               <li>
                 Graduate School Application (Multiple Revision and Proofreading Process): <strong className="text-xl">NT$14,000</strong> / essay
@@ -55,7 +55,7 @@ export default function Pricing() {
           </p>
         </section>
 
-        <section className="flex flex-col gap-6 items-start p-6 bg-white rounded-xl leading-loose drop-shadow-sm">
+        {/* <section className="flex flex-col gap-6 items-start p-6 bg-white rounded-xl leading-loose drop-shadow-sm">
           <h3 className="text-3xl font-semibold">Package work</h3>
           <h4 className="font-semibold">
             Basic package: <strong className="text-xl">NT$85,000</strong>
@@ -90,7 +90,7 @@ export default function Pricing() {
               For more information about package work, please contact us.
             </h4>
           </div>
-        </section>
+        </section> */}
       </div>
     </div>
   );
